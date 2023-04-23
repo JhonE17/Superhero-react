@@ -4,10 +4,14 @@
 
 Pages of superheroes with private routes that display details of the superheroes and keep track of their status.
 
-## Install
+## Install project
 
-`yarn install`
+    yarn install
 
 ## Run project
 
-`yarn dev`
+    yarn dev
+    
+## Demo
+[Page Demo](https://jhone17.github.io/Superhero-react/)
+
