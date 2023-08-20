@@ -14,7 +14,7 @@ export const HeroPage = () => {
   };
 
   if (!hero) return <Navigate to={'/marvel'} />; // Tambien puedo retornar otra vista de 404 en caso el heroe no exista
-  const heroImageUrl = `/heroes/${id}.jpg`;
+  const heroImageUrl = `/assets/heroes/${id}.jpg`;
 
   return (
     <div className='row mt-5'>
