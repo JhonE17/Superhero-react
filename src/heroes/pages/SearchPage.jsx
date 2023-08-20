@@ -1,10 +1,11 @@
-import { useLocation, useNavigate } from "react-router-dom";
 import queryString from "query-string";
+
+import { useLocation, useNavigate } from "react-router-dom";
+import { useMemo } from "react";
 
 import { useForm } from "../../hooks/useForm";
 import { HeroItem } from "../components/HeroItem";
 import { getHeroesByName } from "../helpers/getHeroesByName";
-import { useMemo } from "react";
 
 export const SearchPage = () => {
   const navigate = useNavigate();
