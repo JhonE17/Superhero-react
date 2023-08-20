@@ -13,5 +13,5 @@ Pages of superheroes with private routes that display details of the superheroes
     yarn dev
     
 ## Demo
-[Page Demo]([https://jhone17.github.io/Superhero-react/](https://universe-super-heroes.netlify.app/)https://universe-super-heroes.netlify.app/)
+[Page Demo](https://universe-super-heroes.netlify.app/)
 
